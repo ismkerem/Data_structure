@@ -23,9 +23,9 @@ private:
 			tail = nullptr;
 		}
 
-		cift_yonlu_liste(){}
+		
 		void basaEkle(int veri) {
-			dugum* newnode = new dugum(data, nullptr, nullptr);
+			dugum* newnode = new dugum(veri, nullptr, nullptr);
 			if (head == nullptr) {
 				head = tail = newnode; 
 			}

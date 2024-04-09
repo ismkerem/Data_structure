@@ -44,7 +44,7 @@ void dequeue() {
 
 	if (on == NULL)
 	{
-		cout << "Queue bombos" << endl;
+		cout << "kuyruk bos" << endl;
 	}
 	else
 	{
@@ -58,6 +58,7 @@ void dequeue() {
 	
 	}
 }
+
 	void print() {
 		dugum* temp = on;
 		while (temp != nullptr) {
@@ -72,3 +73,16 @@ void dequeue() {
 	}
 
 };
+
+int main() {
+
+
+	queue q;
+	q.enqueue(1);
+	q.enqueue(2);
+	q.enqueue(3);
+	q.enqueue(4);
+	q.enqueue(5);
+	
+	return 0;
+}
