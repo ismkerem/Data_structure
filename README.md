@@ -1,4 +1,3 @@
-# Data_structure
 # Data Structures in C++
 
 ## Overview
